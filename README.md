@@ -1,6 +1,8 @@
 # GxTinyTerror.lv2
 valve amplifier simulation
 
+![xtinyterror](https://github.com/brummer10/XTinyTerror.lv2/raw/master/XTinyTerror.png)
+
 
 ## Features
 
