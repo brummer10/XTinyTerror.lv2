@@ -173,6 +173,7 @@ void Gx_tinyterror_::deactivate_f()
 
 void Gx_tinyterror_::run_dsp_(uint32_t n_samples)
 {
+  if(n_samples<1) return;
   FAUSTFLOAT buf[n_samples];
   // do inplace processing at default
   if (output != input)

@@ -67,7 +67,7 @@ all : check $(NAME)
 	@echo $(NONE)
 
 mod : 
-	@echo "Not implemented for XPolyMonk"
+	@echo "Not implemented for $(NAME)"
 
 check :
 ifdef ARMCPU
