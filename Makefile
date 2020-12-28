@@ -10,7 +10,7 @@ SUBDIR := XTinyTerror
 $(MAKECMDGOALS) recurse: $(SUBDIR)
 
 check-and-reinit-submodules :
-	@if git submodule status | egrep -q '^[-]|^[+]' ; then \
+	@if git submodule status 2>/dev/null | egrep -q '^[-]|^[+]' ; then \
 		echo $(RED)"INFO: Need to reinitialize git submodules"$(NONE); \
 		git submodule update --init; \
 		echo $(BLUE)"Done"$(NONE); \
