@@ -122,6 +122,7 @@ $(RESOURCES_OBJ): $(RESOURCES)
 endif
 
 clean :
+	rm -f *.a *.o *.so xresources.h
 	@rm -f $(NAME).so
 	@rm -rf ./$(BUNDLE)
 	@echo ". ." $(BLUE)", clean up"$(NONE)
