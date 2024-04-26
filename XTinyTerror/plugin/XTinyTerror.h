@@ -22,7 +22,7 @@
 #ifndef SRC_HEADERS_GXEFFECTS_H_
 #define SRC_HEADERS_GXEFFECTS_H_
 
-#include <lv2.h>
+#include <lv2/core/lv2.h>
 
 #define PLUGIN_URI "http://guitarix.sourceforge.net/plugins/XTinyTerror_"
 #define PLUGIN_UI_URI "http://guitarix.sourceforge.net/plugins/XTinyTerror_gui#_tinyterror_"
